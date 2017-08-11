@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/log/log",
+        "pages/index/concept",
+        "pages/index/page1",
+        "pages/index/page2",
+        "pages/index/page3",
+        "pages/index/api",
+        "pages/index/component",
+        "pages/lab/lab",
+        "pages/lab/component"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#000000",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "小程序一览",
+        "backgroundColor": "#000000",
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/log/log",
+                "text": "日志"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}

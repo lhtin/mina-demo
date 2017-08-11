@@ -1,0 +1,7 @@
+<import src="../cs/list.wxml" />
+<scroll-view>
+    <button bindtap="show" data-cid="{{list1.cid}}">列表1</button>
+    <template is="list" data="{{...list1}}" />
+    <button bindtap="show" data-cid="{{list2.cid}}">列表2</button>
+    <template is="list" data="{{...list2}}" />
+</scroll-view>

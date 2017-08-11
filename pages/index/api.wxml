@@ -1,0 +1,4 @@
+<scroll-view>
+    <button bindtap="chooseImage">wx.chooseImage</button>
+    <image wx:for="{{imgs}}" mode="widthFix" src="{{item}}" class="image"></image>
+</scroll-view>
