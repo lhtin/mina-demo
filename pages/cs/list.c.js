@@ -1,6 +1,6 @@
 import {component} from '../../utils/c';
 
-let list = component({
+let list = component('list', {
     init: function (list) {
         list[0].selected = true;
         this.data = {
@@ -8,7 +8,8 @@ let list = component({
             isShow: false
         };
     },
-    select: function (dataset) {
+    select: function (e) {
+        let dataset = e.currentTarget.dataset;
         console.log('select: ', dataset);
         let name = dataset.name;
         let list = this.data.list;

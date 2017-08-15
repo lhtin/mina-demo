@@ -1,2 +1,0 @@
-<!--page1.wxml-->
-<navigator open-type="redirect" url="/pages/index/page2" class="a">page2(redirect)</navigator>

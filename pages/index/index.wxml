@@ -1,15 +1,5 @@
 <scroll-view>
-  <view class="h1">小程序文档</view>
   <view class="li">
-    <navigator open-type="navigate" url="/pages/index/concept" class="a">概念列表(navigate)</navigator>
-    <navigator open-type="navigate" url="/pages/index/api" class="a">API(navigate)</navigator>
-    <navigator open-type="redirect" url="/pages/index/concept" class="a">概念列表(redirect)</navigator>
-    <navigator open-type="navigate" url="/pages/index/page1" class="a">page1(navigate)</navigator>
-    <navigator open-type="navigate" url="/pages/lab/lab" class="a">实验室(navigate)</navigator>
+    <navigator class="a" open-type="navigate" url="/pages/index/component">组件继承</navigator>
   </view>
-  <view>initView: {{initView}}</view>
-  <view>onLoad: {{onLoad}}</view>
-  <view>onShow: {{onShow}}</view>
-  <view>onReady: {{onReady}}</view>
-  <image mode="widthFix" src="assets/mina-lifecycle.png" class="image"></image>
 </scroll-view>
